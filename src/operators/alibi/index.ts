@@ -74,7 +74,7 @@ export const alibi = {
     type: 'count',
     startingAmount: 3,
     description:
-      'Deploys holograms of Alibi that reveal an opponent\'s location when fired upon or interacted with.',
+      "Deploys holograms of Alibi that reveal an opponent's location when fired upon or interacted with.",
     info: null,
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

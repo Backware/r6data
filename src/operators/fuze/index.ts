@@ -82,7 +82,7 @@ export const fuze = {
     type: 'count',
     startingAmount: 4,
     description:
-      'Charge that\'s deployed on breakable and reinforced surfaces to injure opponents and clear devices on the other side.',
+      "Charge that's deployed on breakable and reinforced surfaces to injure opponents and clear devices on the other side.",
     info: 'Each charge releases 4 sub-grenades.',
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

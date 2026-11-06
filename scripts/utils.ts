@@ -26,8 +26,8 @@ export const readdirRecursive = async (
             ...(await readdirRecursive(curPath, options))
           ].flat()
         : files
-        ? curPath
-        : [];
+          ? curPath
+          : [];
     })
   );
   return paths.flat();

@@ -75,7 +75,7 @@ export const nokk = {
     type: 'infinite_recharge_bar',
     startingAmount: null,
     description:
-      'Wipes Nøkk\'s image from nearby drones and Observation Tools and muffles the sound of her movement.',
+      "Wipes Nøkk's image from nearby drones and Observation Tools and muffles the sound of her movement.",
     info: 'Gauge that empties while in use and fills up when ability is inactive.',
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

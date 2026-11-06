@@ -155,7 +155,7 @@ export const ASSAULT_RIFLES = [
     categorySlug: 'assault_rifle',
     subCategorySlug: [],
     description:
-      'GSG 9\'s medium to long range assault rifle with a high rate of fire.',
+      "GSG 9's medium to long range assault rifle with a high rate of fire.",
     damage: 42,
     fireRate: 720,
     mobility: 50,

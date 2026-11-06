@@ -1,4 +1,3 @@
-/* eslint-disable max-lines */
 import { getWeaponAssetURL } from './utils';
 import type { Weapon } from './types';
 

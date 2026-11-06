@@ -258,6 +258,7 @@ export const OPERATORS = MINI_OPERATORS.map((operator: Operator) => {
   return {
     ...operator,
     // NOTE: `as TYPE` need to prevent ts(7056) error
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
     season: SEASONS.find(season => season.id === operator.season.id)! as Season,
     weapons: {
       primary: operator.weapons.primary.map(({ slug, ...attachments }) => ({

@@ -82,7 +82,7 @@ export const glaz = {
     type: 'none',
     startingAmount: null,
     description:
-      'Magnifying scope that\'s equipped onto the primary weapon to outline opponents and see through smoke.',
+      "Magnifying scope that's equipped onto the primary weapon to outline opponents and see through smoke.",
     info: null,
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

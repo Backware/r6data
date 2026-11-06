@@ -81,7 +81,7 @@ export const jackal = {
     type: 'count',
     startingAmount: 3,
     description:
-      'Headgear that can be activated to reveal opponent footprints and scan them to ping the opponent\'s location.',
+      "Headgear that can be activated to reveal opponent footprints and scan them to ping the opponent's location.",
     info: 'The headgear has limited scans available but no limit on revealing footprints.',
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

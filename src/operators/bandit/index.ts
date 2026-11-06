@@ -65,7 +65,7 @@ export const bandit = {
     type: 'count',
     startingAmount: 4,
     description:
-      'Electrical device that\'s deployed on the ground to electrify nearby metal utility.',
+      "Electrical device that's deployed on the ground to electrify nearby metal utility.",
     info: null,
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

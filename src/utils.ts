@@ -10,8 +10,8 @@ export const getSeasonShorthand = (id: number) => {
   return id === 0
     ? 'Y0S0'
     : decimal
-    ? `Y${whole}S${decimal / 25}`
-    : `Y${whole - 1}S4`;
+      ? `Y${whole}S${decimal / 25}`
+      : `Y${whole - 1}S4`;
 };
 
 export const getSeasonId = (shorthand: string) => {
@@ -34,7 +34,7 @@ export const getNextPriceDropSeasons = (
 export const getPrices = (seasons: Season[], seasonId: number) => {
   const lastSeasonId = seasons.at(-1)!.id;
   const ratio = (lastSeasonId - seasonId) / 4;
-  let result = { renown: 0, r6Credits: 0 };
+  let result: { renown: number; r6Credits: number };
   switch (Math.floor(ratio)) {
     case 0:
       result = { renown: 25000, r6Credits: 600 };
@@ -64,12 +64,7 @@ export const getAssetURL = (path: string) =>
 export const getISODate = (date: string) => new Date(date).toISOString();
 
 export type ConditionalClasses = (
-  | string
-  | number
-  | undefined
-  | null
-  | false
-  | Record<string, unknown>
+  string | number | undefined | null | false | Record<string, unknown>
 )[];
 export const classNames = (...conditionalClasses: ConditionalClasses) =>
   conditionalClasses
@@ -96,7 +91,7 @@ export const parseSvgString = (svg: string) => {
   return {
     contents: $('svg').html() ?? '',
     attributes: $('svg').attr() ?? {}
-  } as Svg;
+  };
 };
 export type ParseSvgStringOutput = ReturnType<typeof parseSvgString>;
 

@@ -14,6 +14,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
+  "engines": {
+    "node": ">=22.18.0"
+  },
   "scripts": {
     "prebuild": "rimraf dist && npm run lint-tsc && npm run lint && npm run spell && npm run svg2png",
     "build": "vite build",
@@ -23,34 +26,34 @@
     "preversion": "npm run build",
     "postversion": "git push --follow-tags",
     "lint-tsc": "tsc --noEmit",
-    "lint": "eslint src scripts",
-    "lint:fix": "eslint src scripts --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "spell": "cspell --show-context \"**/*.md\"",
-    "prepare": "npm run build:prepare"
+    "prepare": "npm run build:prepare",
+    "format": "prettier --write \"src/**/*.ts\" \"scripts/**/*.ts\" \"test/**/*.mjs\" vite.config.ts eslint.config.mjs",
+    "format:check": "prettier --check \"src/**/*.ts\" \"scripts/**/*.ts\" \"test/**/*.mjs\" vite.config.ts eslint.config.mjs",
+    "test": "npm run build:prepare && node --test \"test/**/*.test.mjs\""
   },
-  "prettier": "@danielwerg/prettier-config",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.2.0"
   },
   "devDependencies": {
-    "@danielwerg/eslint-config": "^1.0.0",
-    "@danielwerg/prettier-config": "^1.0.0",
-    "@danielwerg/tsconfig": "^0.1.0",
-    "@prettier/plugin-xml": "^2.2.0",
-    "@types/node": "^20.12.12",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
-    "cspell": "^8.8.3",
-    "eslint": "^8.57.0",
-    "eslint-plugin-import": "^2.29.1",
+    "@eslint/js": "^10.0.1",
+    "@prettier/plugin-xml": "^3.4.2",
+    "@types/node": "^22.20.5",
+    "cspell": "^10.4.0",
+    "eslint": "^10.14.0",
+    "eslint-plugin-import-x": "^4.17.1",
+    "globals": "^17.14.0",
     "path-exists-cli": "^2.0.0",
-    "prettier": "^2.8.8",
-    "rimraf": "^6.1.0",
+    "prettier": "^3.9.10",
+    "rimraf": "^6.1.4",
     "sharp": "^0.35.5",
-    "tsx": "^4.22.4",
-    "typescript": "^5.4.5",
-    "vite": "^8.3.5",
-    "vite-plugin-dts": "^4.5.4",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.6",
+    "vite-plugin-dts": "^5.1.2",
     "vite-plugin-svgo": "^3.0.2"
   },
   "files": [

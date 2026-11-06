@@ -72,7 +72,7 @@ export const mira = {
     type: 'count',
     startingAmount: 2,
     description:
-      'Device that\'s deployed on breakable or reinforced walls to create a bulletproof one-way window.',
+      "Device that's deployed on breakable or reinforced walls to create a bulletproof one-way window.",
     info: null,
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

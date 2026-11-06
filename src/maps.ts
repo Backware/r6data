@@ -118,7 +118,7 @@ export const MAP_PLAYLISTS = [
     slug: 'weapon_roulette',
     name: 'Weapon Roulette',
     description:
-      'Play a 5v5 match where all players\' equipped weapons are swapped periodically.'
+      "Play a 5v5 match where all players' equipped weapons are swapped periodically."
   }
 ] satisfies MapPlaylist[];
 
@@ -146,7 +146,7 @@ export const MINI_MAPS = [
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3JOJJWP50zEjnYkw9kU58V/f5bcfe9cbeb077855259c9f43c7bdda5/r6s-maps-header-house.jpg',
     location: 'Los Angeles, California',
     content:
-      'Playing on themes of familiarity and vulnerability, this encounter takes place in a typical suburban home. It\'s a prime example of destructive depth and replayability, and is one of the showcases for classic siege gameplay.'
+      "Playing on themes of familiarity and vulnerability, this encounter takes place in a typical suburban home. It's a prime example of destructive depth and replayability, and is one of the showcases for classic siege gameplay."
   },
   {
     slug: 'oregon',
@@ -157,7 +157,7 @@ export const MINI_MAPS = [
     ],
     playlists: ['ranked', 'standard'],
     bombSites: [
-      '2F Kids\' Dorms / 2F Dorms Main Hall',
+      "2F Kids' Dorms / 2F Dorms Main Hall",
       '1F Kitchen / 1F Dining Hall',
       '1F Meeting Room / 1F Kitchen',
       'B Laundry Room / B Supply Room'
@@ -288,7 +288,7 @@ export const MINI_MAPS = [
     bombSites: [
       '2F Executive Lounge / 2F CEO Office',
       '1F Staff Office / 1F Open Area',
-      '1F Tellers\' Office / 1F Archives',
+      "1F Tellers' Office / 1F Archives",
       'B Lockers / B CCTV Room'
     ],
     thumbnail: getMapAssetURL('/thumbnails/bank.webp'),
@@ -435,7 +435,7 @@ export const MINI_MAPS = [
     bombSites: [
       '3F Packaging Room / 2F Meth Lab',
       '2F Football Bedroom / 2F Football Office',
-      '2F Aunt\'s Bedroom / 2F Aunt\'s Apartment',
+      "2F Aunt's Bedroom / 2F Aunt's Apartment",
       '1F Biker Apartment / 1F Biker Bedroom'
     ],
     thumbnail: getMapAssetURL('/thumbnails/favela.webp'),
@@ -504,7 +504,7 @@ export const MINI_MAPS = [
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/FducfCGi2pg4DumoX0oRu/722f480cb033a73998f7d76be56b229c/r6s-maps-header-coastline.jpg',
     location: 'Ibiza, Spain',
     content:
-      'Team Rainbow has been called to safeguard the seashore of Ibiza, Spain. Stationed on Ibiza\'s rocky shore, course through Balearic ruins and navigate booming bars to neutralize the threat. Get ready for a surround flow of combat laced with chaotic rushes as you explore a paradise gone wrong.'
+      "Team Rainbow has been called to safeguard the seashore of Ibiza, Spain. Stationed on Ibiza's rocky shore, course through Balearic ruins and navigate booming bars to neutralize the threat. Get ready for a surround flow of combat laced with chaotic rushes as you explore a paradise gone wrong."
   },
   {
     slug: 'theme_park',
@@ -583,7 +583,7 @@ export const MINI_MAPS = [
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5meDfm1l0vEfPTcauK0xYD/628ebffb5d8bbc4c219aa38b536c4f3d/r6s-maps-header-villa.jpg',
     location: 'Tuscany, Italy',
     content:
-      'The land belongs to the Vinciguerra, a dangerous crime family known for their smuggling activities. Now we catch the villa in a snapshot of time: Vinciguerras are burning documents and transporting their holdings before the big raid. But they\'ve got wind of Operation Para Bellum and fled, leaving everything in disarray with vital information ready for the taking.'
+      "The land belongs to the Vinciguerra, a dangerous crime family known for their smuggling activities. Now we catch the villa in a snapshot of time: Vinciguerras are burning documents and transporting their holdings before the big raid. But they've got wind of Operation Para Bellum and fled, leaving everything in disarray with vital information ready for the taking."
   },
   {
     slug: 'fortress',
@@ -591,7 +591,7 @@ export const MINI_MAPS = [
     release: { season: { id: 12 }, date: getISODate('2018-12-04') },
     playlists: ['casual'],
     bombSites: [
-      '2F Bedroom / 2F Commander\'s Office',
+      "2F Bedroom / 2F Commander's Office",
       '2F Dormitory / 2F Briefing Room',
       '1F Kitchen / 1F Cafeteria',
       '1F Hammam / 1F Sitting Room'
@@ -628,7 +628,7 @@ export const MINI_MAPS = [
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4AhC4nK98SdL62vY98kqDB/5d196281369a4a60b99fd7c1e79afd51/r6s-maps-header-outback.jpg',
     location: 'Australia',
     content:
-      'Set in Australia\'s Red Heart, this map is an homage to all the dusty service stations and motels that populate the forgotten highways of the continent, places filled with hardworking locals and specialty menu items you\'ll find nowhere else.'
+      "Set in Australia's Red Heart, this map is an homage to all the dusty service stations and motels that populate the forgotten highways of the continent, places filled with hardworking locals and specialty menu items you'll find nowhere else."
   },
   {
     slug: 'emerald_plains',
@@ -656,7 +656,7 @@ export const MINI_MAPS = [
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7chYwYhW5QNnKgSq1djzI5/a9fd78d3cdd1a4ef6071eefafe123d9a/r6s-maps-header-emerald-2.jpg',
     location: 'Ireland',
     content:
-      'Experience the rolling hills of Northern Ireland in the Emerald Plains country club and private ranch. The two floors on this map are very distinct—with a modern bottom floor contrasting against the classic style of the manor\'s upper floor—in order to emphasize clear call outs and orientation landmarks.'
+      "Experience the rolling hills of Northern Ireland in the Emerald Plains country club and private ranch. The two floors on this map are very distinct—with a modern bottom floor contrasting against the classic style of the manor's upper floor—in order to emphasize clear call outs and orientation landmarks."
   },
   {
     slug: 'close_quarter',
@@ -721,7 +721,7 @@ export const MINI_MAPS = [
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7reaqG2pNvPz4Dolph6ofM/172a07221d96f3a29c62b946507ec580/r6s-maps-header-nighthavenlabs.jpg',
     location: 'Offshore',
     content:
-      'Nighthaven Labs is a competitive map with many entry points and breach points that will make it tricky to hold a position for too long. Be prepared to be flanked in Nighthaven\'s HQ or to surprise your enemies by breaking in the R&D lab. Be careful to always watch your steps Operators!'
+      "Nighthaven Labs is a competitive map with many entry points and breach points that will make it tricky to hold a position for too long. Be prepared to be flanked in Nighthaven's HQ or to surprise your enemies by breaking in the R&D lab. Be careful to always watch your steps Operators!"
   },
   {
     slug: 'lair',
@@ -750,7 +750,7 @@ export const MINI_MAPS = [
       'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4vLRVclfpUWOfOXeaxWWRo/7e0a6735fc9084538482804f474c1b69/r6s-maps-header-lair.jpg',
     location: 'Portugal',
     content:
-      'Lair is a competitive map across three floors with multiple points of entry and breaching opportunities, making verticality a key factor in your strategy. Expect a flank in Armory Hall or to catch your enemies off guard by infiltrating the R6 room. Stay vigilant in the demon\'s den, Operators!'
+      "Lair is a competitive map across three floors with multiple points of entry and breaching opportunities, making verticality a key factor in your strategy. Expect a flank in Armory Hall or to catch your enemies off guard by infiltrating the R6 room. Stay vigilant in the demon's den, Operators!"
   }
 ] satisfies Map[];
 

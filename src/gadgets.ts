@@ -51,7 +51,7 @@ export const GADGETS = [
     side: 'defense',
     amount: 1,
     description:
-      'Bulletproof shield that\'s deployed on the ground or attached to doorframes to provide protective cover.',
+      "Bulletproof shield that's deployed on the ground or attached to doorframes to provide protective cover.",
     notes: null,
     icon: {
       svg: parseSvgString(deployableShieldIcon),
@@ -200,7 +200,7 @@ export const GADGETS = [
     side: 'attack',
     amount: 2,
     description:
-      'Explosive trap that\'s deployed on the ground and is useful against roaming Defenders.',
+      "Explosive trap that's deployed on the ground and is useful against roaming Defenders.",
     notes: null,
     icon: {
       svg: parseSvgString(claymoreIcon),
@@ -230,7 +230,7 @@ export const GADGETS = [
     side: 'attack',
     amount: 3,
     description:
-      'Explosive device that\'s deployed on breakable surfaces and is manually detonated to create an entryway.',
+      "Explosive device that's deployed on breakable surfaces and is manually detonated to create an entryway.",
     notes: null,
     icon: {
       svg: parseSvgString(breachChargeIcon),
