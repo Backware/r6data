@@ -1,6 +1,6 @@
 import type { SVGandPNG, SightSlug } from '../types';
 import { parseSvgString } from '../utils';
-import { getAttachmentAssetURL } from '.';
+import { getAttachmentAssetURL } from './utils';
 import ironSightIcon from '../assets/attachments/sights/svgs/iron_sight.svg';
 import redDotAIcon from '../assets/attachments/sights/svgs/red_dot_a.svg';
 import redDotBIcon from '../assets/attachments/sights/svgs/red_dot_b.svg';
@@ -23,10 +23,7 @@ import telescopicB from '../assets/attachments/sights/svgs/telescopic_b.svg';
 import telescopicDot44MagSemiAuto from '../assets/attachments/sights/svgs/telescopic_.44_mag_semi-auto.svg';
 
 export type SightCategory =
-  | 'none'
-  | 'non-magnifying'
-  | 'magnifying'
-  | 'telescopic';
+  'none' | 'non-magnifying' | 'magnifying' | 'telescopic';
 
 export interface Sight {
   slug: SightSlug;

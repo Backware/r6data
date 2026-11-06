@@ -1,6 +1,6 @@
 import type { BarrelSlug, SVGandPNG } from '../types';
 import { parseSvgString } from '../utils';
-import { getAttachmentAssetURL } from '.';
+import { getAttachmentAssetURL } from './utils';
 import flashHiderIcon from '../assets/attachments/barrels/svgs/flash_hider.svg';
 import compensatorIcon from '../assets/attachments/barrels/svgs/compensator.svg';
 import muzzleBrakeIcon from '../assets/attachments/barrels/svgs/muzzle_brake.svg';

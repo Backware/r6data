@@ -9,8 +9,7 @@ export interface LastUpdated {
   date: string;
 }
 export type SeasonShorthandVersion =
-  | SeasonShorthand
-  | `${SeasonShorthand}.${number}`;
+  SeasonShorthand | `${SeasonShorthand}.${number}`;
 
 export const LAST_UPDATED = {
   season: { shorthandVersion: 'Y9S4.3' },

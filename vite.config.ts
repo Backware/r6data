@@ -4,13 +4,15 @@ import svgo from 'vite-plugin-svgo';
 
 import { join } from 'node:path';
 
-import pkg from './package.json' assert { type: 'json' };
+import pkg from './package.json' with { type: 'json' };
 
+const { dependencies = {}, peerDependencies = {} } = pkg as {
+  dependencies?: Record<string, string>;
+  peerDependencies?: Record<string, string>;
+};
 const external = [
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/dot-notation
-  ...Object.keys(pkg['dependencies'] ?? {}),
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/dot-notation
-  ...Object.keys(pkg['peerDependencies'] ?? {})
+  ...Object.keys(dependencies),
+  ...Object.keys(peerDependencies)
 ];
 
 /** Matches `^DEPENDENCY_NAME($|/)` */
@@ -65,9 +67,9 @@ export default defineConfig({
             delim: '__',
             prefix: (node, info) => {
               const [, file] = info.path?.match(/[/\\]?([^/\\]+)$/) ?? [];
-              const [fileName] = file.split('.');
+              const [fileName] = (file ?? '').split('.');
               if (node.name === 'svg') return 'r6data';
-              return `r6data__${fileName!}`;
+              return `r6data__${fileName ?? ''}`;
             }
           }
         }

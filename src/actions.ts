@@ -60,7 +60,7 @@ export const ACTIONS = [
     name: 'Barricade',
     amount: null,
     description:
-      'Wooden barrier that\'s placed on windows and doors to block line of sight and deny entry.',
+      "Wooden barrier that's placed on windows and doors to block line of sight and deny entry.",
     notes: null,
     icon: {
       svg: parseSvgString(barricadeIcon),
@@ -72,7 +72,7 @@ export const ACTIONS = [
     name: 'Reinforcement',
     amount: 10,
     description:
-      'Metal barrier that\'s placed on breakable walls and hatches to protect against breaches and deny entry.',
+      "Metal barrier that's placed on breakable walls and hatches to protect against breaches and deny entry.",
     notes: 'Limited resource pool shared by Defenders.',
     icon: {
       svg: parseSvgString(reinforcementIcon),
@@ -84,7 +84,7 @@ export const ACTIONS = [
     name: 'Drone',
     amount: 2,
     description:
-      'Intel device that\'s used to locate objectives, utility, and opponent positions.',
+      "Intel device that's used to locate objectives, utility, and opponent positions.",
     notes: null,
     icon: {
       svg: parseSvgString(droneIcon),

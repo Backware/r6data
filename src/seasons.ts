@@ -193,7 +193,7 @@ export const SEASONS = [
     season: 3,
     hexColorCode: '#36526e',
     description:
-      'For Operation Grim Sky, Rainbow Six is deploying Clash and Maverick. Experts in mob behavior and high-precision strikes respectively, they\'ll also assess the new training facilities at the reworked Hereford Base. Out with the old and in with the new.',
+      "For Operation Grim Sky, Rainbow Six is deploying Clash and Maverick. Experts in mob behavior and high-precision strikes respectively, they'll also assess the new training facilities at the reworked Hereford Base. Out with the old and in with the new.",
     thumbnail: getSeasonAssetURL('/y3s3.jpg'),
     thumbnailOfficial:
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4y07zikRXB4BcyRQy5Anoe/2e6de56c3ea34cadb300326102963340/rainbow6siege_grimsky_thumb_333789.jpg',
@@ -305,7 +305,7 @@ export const SEASONS = [
     season: 2,
     hexColorCode: '#22667c',
     description:
-      'Don\'t miss a beat with Operation Steel Wave. Discover the new hard-breacher Ace and his S.E.L.M.A Aqua Breacher that combines the demolitionist\'s explosive force with the humanitarian\'s care. On the other side of the action, don\'t be too alarmed if you find yourself slowed when there\'s no barbed wire underfoot. This is the Banshee Sonic Defence that will alert Melusi of your presence. With them, expect a newly reworked House coming into the game.',
+      "Don't miss a beat with Operation Steel Wave. Discover the new hard-breacher Ace and his S.E.L.M.A Aqua Breacher that combines the demolitionist's explosive force with the humanitarian's care. On the other side of the action, don't be too alarmed if you find yourself slowed when there's no barbed wire underfoot. This is the Banshee Sonic Defence that will alert Melusi of your presence. With them, expect a newly reworked House coming into the game.",
     thumbnail: getSeasonAssetURL('/y5s2.jpg'),
     thumbnailOfficial:
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4soZ80QzL9WoLqvq8Hz647/d8d70312ec2849c276b459c3ef0482cd/r6s-seasons-y5s2.jpg',
@@ -355,7 +355,7 @@ export const SEASONS = [
     season: 1,
     hexColorCode: '#8a0000',
     description:
-      'In life, you have to commit to the things that make you happy. For Operator Flores and his RCE-Ratero, it\'s stealing the corrupt to help his fellow citizens. Additionally, you will be able to roam the newly reworked Border.',
+      "In life, you have to commit to the things that make you happy. For Operator Flores and his RCE-Ratero, it's stealing the corrupt to help his fellow citizens. Additionally, you will be able to roam the newly reworked Border.",
     // NOTE: https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7iKoGngda7z0LyYpTT25zM/2ba16741ffa8a7d8b4629ed870d8a870/r6s-seasons-y6s1.jpg
     thumbnail: getSeasonAssetURL('/y6s1.jpg'),
     thumbnailOfficial:
@@ -389,7 +389,7 @@ export const SEASONS = [
     season: 3,
     hexColorCode: '#cc8200',
     description:
-      'Innovation is natural for Osa while she reinforces the attacking team\'s position. She can deploy the Talon-8 clear shields on doors, door or window frames or keep it in hands to navigate through the map. The Talon-8 shields ere bulletproof but transparent and let both side see through so be careful when positionning them. Additionally, Bank, Clubhouse and Coastline see some changes to add more comfort.',
+      "Innovation is natural for Osa while she reinforces the attacking team's position. She can deploy the Talon-8 clear shields on doors, door or window frames or keep it in hands to navigate through the map. The Talon-8 shields ere bulletproof but transparent and let both side see through so be careful when positionning them. Additionally, Bank, Clubhouse and Coastline see some changes to add more comfort.",
     thumbnail: getSeasonAssetURL('/y6s3.jpg'),
     thumbnailOfficial:
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5Rm9sfgVTz9KdTI1Jh4N6w/c2d66a871b6311fe26198553695e0cd1/r6s-seasons-y6s3.jpg',
@@ -421,7 +421,7 @@ export const SEASONS = [
     season: 1,
     hexColorCode: '#b27400',
     description:
-      'Demon Veil introduces exciting new content like Azami, a new Defender from Japan, a brand new map (Coming mid-season), and a permanent game mode: Team Deathmatch. Azami\'s Kiba Barrier can shut down sightlines, block off entry points, and create entirely new angles of defense all with a flick of her wrist. Also coming with this season is the Attacker Repick which brings another strategic option to the Prep Phase, a balancing change for Goyo, Match Replay for console and more.',
+      "Demon Veil introduces exciting new content like Azami, a new Defender from Japan, a brand new map (Coming mid-season), and a permanent game mode: Team Deathmatch. Azami's Kiba Barrier can shut down sightlines, block off entry points, and create entirely new angles of defense all with a flick of her wrist. Also coming with this season is the Attacker Repick which brings another strategic option to the Prep Phase, a balancing change for Goyo, Match Replay for console and more.",
     thumbnail: getSeasonAssetURL('/y7s1.jpg'),
     thumbnailOfficial:
       'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6diil0gexoNXNCKtwpPPQZ/ace6f9e6e1e1578a2255ac0e5cb67b7c/r6s-seasons-y7s1.jpg',
@@ -549,7 +549,7 @@ export const SEASONS = [
     season: 1,
     hexColorCode: '#f14b37',
     description:
-      'Operation Deadly Omen marks a historic moment as the first villain Operator, Deimos, joins the roster. Track down your enemies with his DeathMARK gadget, a flying probe which reveals both a designated target and Deimos’ locations until one is eliminated. Year 9 Season 1 also brings an impactful upgrade for attachments & ADS, and revamped shield mechanics to reinforce Siege\'s tactical gameplay. Additionally Deadly Omen introduces player protection improvements as well as an inventory management menu for you to optimize your gear, and much more.',
+      "Operation Deadly Omen marks a historic moment as the first villain Operator, Deimos, joins the roster. Track down your enemies with his DeathMARK gadget, a flying probe which reveals both a designated target and Deimos’ locations until one is eliminated. Year 9 Season 1 also brings an impactful upgrade for attachments & ADS, and revamped shield mechanics to reinforce Siege's tactical gameplay. Additionally Deadly Omen introduces player protection improvements as well as an inventory management menu for you to optimize your gear, and much more.",
     thumbnail: getSeasonAssetURL('/y9s1.jpg'),
     thumbnailOfficial:
       'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/JH6jp9ShwXjV3f4nPf7tv/b8ad7620efa32c409be72279a6a369fb/Y9S1_OperatorKeyart_FINAL.jpg',

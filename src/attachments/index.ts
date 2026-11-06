@@ -1,5 +1,6 @@
 import type { SVGandPNG } from '../types';
-import { getAssetURL, parseSvgString } from '../utils';
+import { parseSvgString } from '../utils';
+import { getAttachmentAssetURL } from './utils';
 import sightIcon from '../assets/attachments/svgs/sight.svg';
 import barrelIcon from '../assets/attachments/svgs/barrel.svg';
 import gripIcon from '../assets/attachments/svgs/grip.svg';
@@ -9,9 +10,7 @@ export { SIGHTS, type Sight, type SightCategory } from './sights';
 export { GRIPS, type Grip } from './grips';
 export { BARRELS, type Barrel } from './barrrels';
 export { UNDER_BARRELS, type UnderBarrel } from './underBarrels';
-
-export const getAttachmentAssetURL = (path: string) =>
-  getAssetURL(`/attachments${path}`);
+export { getAttachmentAssetURL } from './utils';
 
 export interface Attachment {
   slug: AttachmentSlug;

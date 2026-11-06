@@ -72,7 +72,7 @@ export const kapkan = {
     type: 'count',
     startingAmount: 5,
     description:
-      'Explosive trap that\'s attached to doorframes and window frames.',
+      "Explosive trap that's attached to doorframes and window frames.",
     info: null,
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

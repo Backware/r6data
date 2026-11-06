@@ -43,4 +43,4 @@ export const weaponCategorySlugToName = (
     mp: 'Machine Pistol',
     shield: 'Shield',
     launcher: 'Launcher'
-  }[slug]);
+  })[slug];

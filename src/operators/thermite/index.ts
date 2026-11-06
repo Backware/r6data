@@ -73,7 +73,7 @@ export const thermite = {
     type: 'count',
     startingAmount: 2,
     description:
-      'Explosive device that\'s manually detonated to create large entryways in breakable and reinforced surfaces.',
+      "Explosive device that's manually detonated to create large entryways in breakable and reinforced surfaces.",
     info: null,
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

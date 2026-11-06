@@ -72,7 +72,7 @@ export const vigil = {
     type: 'infinite_recharge_bar',
     startingAmount: null,
     description:
-      'Wipes Vigil\'s image from nearby drones and Observation Tools so he can\'t be scanned.',
+      "Wipes Vigil's image from nearby drones and Observation Tools so he can't be scanned.",
     info: 'Gauge that empties while in use and fills up when ability is inactive.',
     icon: {
       svg: parseSvgString(uniqueAbilitySvg),

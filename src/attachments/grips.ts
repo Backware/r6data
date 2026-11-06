@@ -1,6 +1,6 @@
 import type { GripSlug, SVGandPNG } from '../types';
 import { parseSvgString } from '../utils';
-import { getAttachmentAssetURL } from '.';
+import { getAttachmentAssetURL } from './utils';
 import verticalGripIcon from '../assets/attachments/grips/svgs/vertical_grip.svg';
 import angledGripIcon from '../assets/attachments/grips/svgs/angled_grip.svg';
 import horizontalGripIcon from '../assets/attachments/grips/svgs/horizontal_grip.svg';
