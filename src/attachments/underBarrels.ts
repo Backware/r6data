@@ -1,6 +1,6 @@
 import type { SVGandPNG, UnderBarrelSlug } from '../types';
 import { parseSvgString } from '../utils';
-import { getAttachmentAssetURL } from '.';
+import { getAttachmentAssetURL } from './utils';
 import laserIcon from '../assets/attachments/under_barrels/svgs/laser.svg';
 
 export interface UnderBarrel {
